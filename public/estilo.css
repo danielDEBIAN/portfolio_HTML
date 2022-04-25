@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", sans-serif;
+}
+
+main {
+  background: rgba(194, 233, 255, 0.315);
+  display: flex;
+  justify-content: center;
+  background-image: url("./images/header_back.svg");
+  
+}
+
+#card {
+  width: 80%;
+  max-width: 450px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#profile {
+  width: 60%;
+  max-width: 60%;
+  border-radius: 99rem;
+  padding: 2rem;
+}
+
+.name{
+    font-size: 35px;
+}
+
+.title{
+    font-size: 23px;
+}
+
+.correo{
+    padding: 5%;
+    padding-bottom: 0%;
+}
+
+.email{
+    padding: 1rem;
+    padding-top: 2%;
+}
+
+.redes {
+    display: flex;
+    padding: 1rem;
+    padding-bottom: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes ul li{
+    display: inline-block;
+    margin: 0 5px;
+    text-align: center;
+    width: 5rem;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: rgb(58, 150, 255);
+}
+
+#academic{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#academic ul li{
+    display: inline-block;
+    margin: 0 5px;
+    text-align: center;
+    width: 33rem;
+}
+
+#title{
+    margin-top: 2rem;
+    font-size: 26px;
+    font-style: oblique;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 1rem;
+    letter-spacing: 10px;
+}
+
+.forma{
+    background-image: url(./images/title_back.svg);
+    margin-bottom: 2rem;
+}
+
+.hobi{
+    background-image: url(./images/title_back_hob.svg);
+    margin-bottom: 20px;
+}
+
+#escuelas li{
+    text-align: center;
+    list-style: none;
+    padding-bottom: 5%;
+}
+
+img.ESCOM {
+    height: 110px;
+    padding-bottom: 5px;
+}
+
+img.voca3{
+    height: 120px;
+    padding-bottom: 5px;
+}
+
+.es_nom{
+    font-size: 22px;
+    font-style: italic;
+}
+
+.fechas {
+    font-style: italic;
+    opacity: 0.5;
+}
+
+.carrera{
+    font-style: italic;
+    font-weight: bold;
+}
+
+#hobbies {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(194, 233, 255, 0.315);
+    padding-bottom: 1rem;
+    background-image: url("./images/background2.svg");
+}
+
+#hobbies ul li{
+    display: inline-block;
+    margin: 0 5px;
+    text-align: center;
+    width: 33rem;
+}
+
+#lst_hob li {
+    text-align: center;
+    list-style: none;
+    padding-bottom: 5%;
+}
+
+.hob_name{
+    font-size: 22px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+#crypto{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 2rem;
+}
+
+.spoty {
+    width: 400px;
+    height: 400px;
+    padding-bottom: 2rem;
+}
+
+#title_cry{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 26px;
+    color: rgb(0, 24, 44);
+    font-style: oblique;
+    background-image: url(./images/title_back_cryp.svg);
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 1rem;
+    letter-spacing: 10px;
+}
+
+#cry_tl{
+    font-size: 20px;
+    padding-bottom: 1rem;
+    font-style: italic;
+}
+
+#name_alan{
+    font-size: 25px;
+    padding-bottom: 2rem;
+    font-style: italic;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+.turing_img{
+    height: 200px;
+    border-radius: 99rem;
+    margin-bottom: 2rem;
+}
+
+.par1{
+    width: 600px;
+    text-align: justify;
+}
+
+.info_turing{
+    padding-top: 1rem;
+    max-width: 600px;
+    text-align: justify;
+}
+
+#CV{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(194, 233, 255, 0.315);
+    padding-bottom: 1rem;
+    background-image: url("./images/cv_back.svg");
+    padding-bottom: 4rem;
+}
+
+.down{
+    text-decoration: none;
+    margin-top: 2rem;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 5px;
+    background-color: rgba(208, 208, 250, 0.267);
+    border-radius: 20rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+
+.down:hover{
+    background-color: rgb(163, 163, 206);
+    color: white;
+    font-weight: bolder;
+    border: none;
+}
+
+#llave{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 4rem;
+}
+
+.key{
+    background-image: url("./images/title_back_key.svg");
+}
